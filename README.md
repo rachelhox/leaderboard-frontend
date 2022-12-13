@@ -17,7 +17,7 @@ interface GeneralState {
 }
 ```
 
-Leaderboard number for refernce to socket server:
+Leaderboard number for reference to [socket server](https://github.com/rachelhox/leaderboard-backend):
 
 ```typescript
 interface GeneralState {
