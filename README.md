@@ -2,7 +2,7 @@
 
 A web app displaying real-time leaderboard, powered by SocketIO.
 
-### Features
+## Features
 
 ## Context API
 
