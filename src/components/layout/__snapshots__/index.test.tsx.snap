@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component: Layout it renders 1`] = `
+<div
+  className="MuiBox-root css-79elbk"
+>
+  <div
+    className="MuiBox-root css-1408fvk"
+  >
+    <div
+      className="MuiBox-root css-6y38p3"
+    >
+      <div>
+        hello world
+      </div>
+    </div>
+  </div>
+</div>
+`;

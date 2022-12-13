@@ -20,6 +20,9 @@
       "@src/*": [
         "src/*"
       ],
+      "@styles": [
+        "src/styles"
+      ],
       "@components": [
         "src/components"
       ],
@@ -31,6 +34,9 @@
       ],
       "@utils": [
         "src/utils"
+      ],
+      "@tests/*": [
+        "tests/*"
       ]
     }
   },
