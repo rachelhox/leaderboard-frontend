@@ -11,7 +11,9 @@ Powered by socket.io with context API, updates show up real-time across browsers
 #### Functionalities
 
 - Add Player(s)
-<div style="width:100%;height:0;padding-bottom:78%;position:relative;"><iframe src="https://giphy.com/embed/e7R8wQ1k8KA4Feml40" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/e7R8wQ1k8KA4Feml40">via GIPHY</a></p>
+<p align="center">
+<img src="https://media.giphy.com/media/e7R8wQ1k8KA4Feml40/giphy.gif" width="550" />
+</p>
 
 ## Context API
 
