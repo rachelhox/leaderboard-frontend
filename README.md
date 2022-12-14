@@ -12,7 +12,7 @@ Powered by socket.io with context API, updates show up real-time across browsers
 
 - Add Player(s)
 <p align="center">
-<img src="https://media.giphy.com/media/e7R8wQ1k8KA4Feml40/giphy.gif" width="550" />
+<img src="https://media.giphy.com/media/e7R8wQ1k8KA4Feml40/giphy.gif" width="350" />
 </p>
 
 ## Context API
