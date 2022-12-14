@@ -31,7 +31,7 @@ Powered by socket.io with context API, updates show up real-time across browsers
 On successful connection to websocket, green light will be shown
 
 <p align="center">
-<img src="https://ibb.co/YQKxfJ1" width="280">
+<img src="https://i.ibb.co/4tDH4CX/Leaderboard-green-signal.png" width="280">
 </p>
 
 ## Context API
