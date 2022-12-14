@@ -1,6 +1,6 @@
 # Leaderboard
 
-A web app displaying real-time leaderboard, powered by SocketIO.
+A responsive web app displaying real-time leaderboard, powered by SocketIO.
 
 ## Features
 
@@ -31,7 +31,7 @@ Powered by socket.io with context API, updates show up real-time across browsers
 The order of players can be shown **alphabetically** according to their names, or in **ranks** (ascending/descending numerical order) according to their scores.
 
 <p align="center">
-<img src="https://media.giphy.com/media/7gFOOI9jxzKy2TzClJ/giphy.gif" width="550" />
+<img src="https://media.giphy.com/media/7gFOOI9jxzKy2TzClJ/giphy.gif" width="450" />
 </p>
 
 ### 4. Online/Offline signal for websocket connection
