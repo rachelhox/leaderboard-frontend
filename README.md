@@ -4,26 +4,34 @@ A web app displaying real-time leaderboard, powered by SocketIO.
 
 ## Features
 
-### Real-time updates on players’ status
+### 1. Real-time updates on players’ status
 
 Powered by socket.io with context API, updates show up real-time across browsers connected to socket.
 
 #### Functionalities
 
 - Add Player(s)
-<p align="left">
+<p align="center">
 <img src="https://media.giphy.com/media/e7R8wQ1k8KA4Feml40/giphy.gif" width="350" />
 </p>
 
 - Delete Player(s)
-<p align="left">
+<p align="center">
 <img src="https://media.giphy.com/media/96nEeEgE59oKn3cEKP/giphy.gif" width="350" />
 </p>
 
-### Dynamic page pagination
+### 2. Dynamic page pagination
 
-<p align="left">
+<p align="center">
 <img src="https://media.giphy.com/media/eRPEVlBWu9zK0IVGbS/giphy.gif" width="350" />
+</p>
+
+### 3. Online/Offline signal for websocket connection
+
+On successful connection to websocket, green light will be shown
+
+<p align="center">
+<img src="https://ibb.co/YQKxfJ1" width="280">
 </p>
 
 ## Context API
