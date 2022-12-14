@@ -42,7 +42,7 @@ On successful connection to websocket, green light will be shown
 <img src="./public/images/leaderboard-green-signal.png" width="280">
 </p>
 
-On unsuccessful connection or disconnectikon to websocket, red light will be shown
+On disconnection to websocket, red light will be shown
 
 <p align="center">
 <img src="./public/images/leaderboard-red-signal.png" width="280">
