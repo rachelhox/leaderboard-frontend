@@ -4,6 +4,7 @@
 /* eslint-disable react/require-default-props */
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
+import validator from 'validator';
 import { useRouter } from 'next/router';
 import { Box, useTheme } from '@mui/material';
 
@@ -12,6 +13,7 @@ type Props = {
   title?: string;
   description?: string;
   type?: string;
+  image?: string;
 };
 
 const Layout = ({
@@ -19,11 +21,16 @@ const Layout = ({
   title = 'Leaderboard',
   description = 'A web app displaying real-time leaderboard',
   type = 'website',
+  image,
 }: Props) => {
   const theme = useTheme();
   const router = useRouter();
   const currentPath = router.asPath === '/' ? '/' : `${router.asPath}`;
   const url = process.env.NEXT_PUBLIC_URL;
+  let ogImage = image ?? `${url}/static/icons/favicon-96x96.png`;
+  if (!validator.isURL(ogImage)) {
+    ogImage = `${url}${ogImage}`;
+  }
   return (
     <Box position="relative">
       <Head>
@@ -54,6 +61,24 @@ const Layout = ({
           property="og:description"
           content={description}
         />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:image"
+          content={ogImage}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href={`${url}/icons/favicon-32x32.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href={`${url}/icons/favicon-16x16.png`}
+        />
+        <link rel="manifest" href={`${url}/icons/site.webmanifest`} />
       </Head>
       <Box
         sx={{
