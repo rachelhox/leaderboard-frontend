@@ -11,8 +11,19 @@ Powered by socket.io with context API, updates show up real-time across browsers
 #### Functionalities
 
 - Add Player(s)
-<p align="center">
+<p align="left">
 <img src="https://media.giphy.com/media/e7R8wQ1k8KA4Feml40/giphy.gif" width="350" />
+</p>
+
+- Delete Player(s)
+<p align="left">
+<img src="https://media.giphy.com/media/96nEeEgE59oKn3cEKP/giphy.gif" width="350" />
+</p>
+
+### Dynamic page pagination
+
+<p align="left">
+<img src="https://media.giphy.com/media/eRPEVlBWu9zK0IVGbS/giphy.gif" width="350" />
 </p>
 
 ## Context API
