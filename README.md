@@ -26,16 +26,26 @@ Powered by socket.io with context API, updates show up real-time across browsers
 <img src="https://media.giphy.com/media/eRPEVlBWu9zK0IVGbS/giphy.gif" width="350" />
 </p>
 
-### 3. Online/Offline signal for websocket connection
+### 3. Dynamic sorting display
+
+The order of players can be shown **alphabetically** according to their names, or in **ranks** (ascending/descending numerical order) according to their scores.
+
+<p align="center">
+<img src="https://media.giphy.com/media/7gFOOI9jxzKy2TzClJ/giphy.gif" width="350" />
+</p>
+
+### 4. Online/Offline signal for websocket connection
 
 On successful connection to websocket, green light will be shown
 
-<!-- <p align="center">
-<img src="https://i.ibb.co/4tDH4CX/Leaderboard-green-signal.png" width="280">
-</p> -->
-
 <p align="center">
 <img src="./public/images/leaderboard-green-signal.png" width="280">
+</p>
+
+On unsuccessful connection or disconnectikon to websocket, red light will be shown
+
+<p align="center">
+<img src="./public/images/leaderboard-red-signal.png" width="280">
 </p>
 
 ## Context API
